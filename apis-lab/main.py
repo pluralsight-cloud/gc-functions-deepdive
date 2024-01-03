@@ -29,8 +29,8 @@ storage_client = storage.Client()
 project_id = "[PROJECT_ID]"
 
 # SET VARIABLES
-RESULT_TOPIC = "acg-image-to-text-results"
-TRANSLATE_TOPIC = "acg-image-to-text-translation"
+RESULT_TOPIC = "ps-image-to-text-results"
+TRANSLATE_TOPIC = "ps-image-to-text-translation"
 RESULT_BUCKET = "[RESULT_BUCKET]"
 TRANSLATE = True
 TO_LANG = "en fr es ar ru hi"
