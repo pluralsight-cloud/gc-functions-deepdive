@@ -1,4 +1,4 @@
-def acg_fireworks(request):
+def ps_fireworks(request):
     return """
     <!doctype html>
     <html>
@@ -13,8 +13,8 @@ def acg_fireworks(request):
     </style>
     </head>
     <body style='background-color:#060C59;'>
-    <h1 style='padding-top:100px;font-size:48px;color:white;text-align:center;'>Expect Dazzling Content from...<br>
-        <img src='https://raw.githubusercontent.com/linuxacademy/content-gc-serverless/master/cloud-functions-demo/assets/acg-logo.png' alt='A Cloud Guru'></h1>
+    <h1 style='padding-top:100px;line-height:120%;font-size:48px;color:white;text-align:center;'>Expect Dazzling Content from...<br>
+        <img src='https://github.com/pluralsight-cloud/gc-functions-deepdive/blob/main/fireworks/ps-logo.png?raw=true' alt='Pluralsight'></h1>
     <div class='demo'>
     </div>
     <script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
