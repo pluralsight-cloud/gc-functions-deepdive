@@ -3,7 +3,7 @@
     // set the defaults
 		options = options || {};
 
-    options.sound = options.sound || false;
+    options.sound = options.sound || true;
 		options.opacity = options.opacity || 1;
 		options.width = options.width || $(this).width();
 		options.height = options.height || $(this).height();
