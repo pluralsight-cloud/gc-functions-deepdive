@@ -18,7 +18,7 @@ def acg_fireworks(request):
     <div class='demo'>
     </div>
     <script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
-    <script src='https://www.jqueryscript.net/demo/Realistic-Fireworks-Animations-Using-jQuery-And-Canvas-fireworks-js/jquery.fireworks.js'></script>
+    <script src='https://github.com/pluralsight-cloud/gc-functions-deepdive/fireworks/jquery.fireworks.js'></script>
     <script>
     $('.demo').fireworks({ sound: true, opacity: 0.9, width: '100%', height: '100%' });
     </script>
