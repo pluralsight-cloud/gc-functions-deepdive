@@ -14,11 +14,11 @@ def ps_fireworks(request):
     </head>
     <body style='background-color:#060C59;'>
     <h1 style='padding-top:100px;line-height:120%;font-size:48px;color:white;text-align:center;'>Expect Dazzling Content from...<br>
-        <img src='https://github.com/pluralsight-cloud/gc-functions-deepdive/blob/main/fireworks/ps-logo.png?raw=true' alt='Pluralsight'></h1>
+        <img style='margin-top: 23px;' src='https://github.com/pluralsight-cloud/gc-functions-deepdive/blob/main/fireworks/ps-logo.png?raw=true' alt='Pluralsight'></h1>
     <div class='demo'>
     </div>
     <script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
-    <script src='https://github.com/pluralsight-cloud/gc-functions-deepdive/fireworks/jquery.fireworks.js'></script>
+    <script src='https://www.jqueryscript.net/demo/Realistic-Fireworks-Animations-Using-jQuery-And-Canvas-fireworks-js/jquery.fireworks.js'></script>
     <script>
     $('.demo').fireworks({ sound: true, opacity: 0.9, width: '100%', height: '100%' });
     </script>
